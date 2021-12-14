@@ -15,10 +15,29 @@ h3{
     text-align: center;
 }
 
+h4{
+    text-align: center;
+    font-size: 200%;
+}
+
  #girls{
       margin-right: 50%;  
     }
 
 p{
     text-align: center;
+    font-size: 150%;
+}
+
+.me{
+    border-radius: 200px;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border-radius: 50%;
+
 }
