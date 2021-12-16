@@ -1,32 +1,48 @@
+:root{
+    background-color:#CCE6FF;
+  --headingfont:"chapman", sans-serif;
+  font-style: italic bold;
+  --basicfont:"helvetica", serif;
+  font-weight:lighter; 
+  }
 h1{
     font-family: var(--headingfont);
-    margin-left: 40%;
+    text-align: center;
     font-size: 200%;
     }
 
 h2{
-    padding-left: 30%;
-    margin-top: 20%;
     text-align: center;
+    line-height:0.2em;
+    font-family: var(--headingfont);
+    font-weight: bold;
+    font-style: italic;
+    position: relative; 
+    top: 70px;
 }
 
 h3{
     font-size: 250%;
     text-align: center;
+    font-family: var(--headingfont);
+    font-weight: bold;
+    font-style: italic;
 }
 
 h4{
     text-align: center;
     font-size: 200%;
+    color:#6C6A6A;
+    font-family: var(--headingfont);
+    font-weight: bold;
+    font-style: italic;
 }
-
- #girls{
-      margin-right: 50%;  
-    }
 
 p{
     text-align: center;
-    font-size: 150%;
+    font-size: 27px;
+    font-family: var(--baiscfont);
+    font-weight:lighter; 
 }
 
 .me{
@@ -40,4 +56,61 @@ p{
   width: 20%;
   border-radius: 50%;
 
+}
+
+.girls {
+    position: relative;
+    top: 250px;
+}
+.photo {
+    position: relative;
+    top: 50px;
+}
+.page{
+    position: relative; 
+    top: 150px;
+}
+.me{
+    position: relative; 
+    top: 150px;
+}
+.center{
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    width: 70px; 
+}
+#head{
+    background: linear-gradient(130deg, black 45%, rgba(0, 0, 0, 0) 40%);
+    color: #ffff;
+    padding-top: 80px;
+    padding-bottom: 380px;
+}
+#do{
+    background-color:#767779;
+    font-family: var(--headingfont);
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    }
+#work{
+    background: linear-gradient(-37deg,black 50%, rgba(0, 0, 0, 0) 50%);
+    padding-top: 80px;
+    padding-bottom: 350px;
+}
+#story {
+    background-color:#C4C4C4;
+    padding-top: 80px;
+    padding-bottom: 330px;
+}
+#discuss {
+    background-color:#22252A;
+    padding-top: 80px;
+    padding-bottom: 150px;
+
+}
+
+body {
+    margin: 0px;
 }
