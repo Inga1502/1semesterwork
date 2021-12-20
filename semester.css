@@ -5,6 +5,7 @@
   --basicfont:"helvetica", serif;
   font-weight:lighter; 
   }
+
 h1{
     font-family: var(--headingfont);
     text-align: center;
@@ -18,7 +19,7 @@ h2{
     font-weight: bold;
     font-style: italic;
     position: relative; 
-    top: 70px;
+    top: 120px;
 }
 
 h3{
@@ -45,10 +46,6 @@ p{
     font-weight:lighter; 
 }
 
-.me{
-    border-radius: 200px;
-}
-
 .center{
   display: block;
   margin-left: auto;
@@ -60,19 +57,25 @@ p{
 
 .girls {
     position: relative;
-    top: 250px;
+    padding-top: 290px; 
+    width: 100%;
 }
 .photo {
     position: relative;
-    top: 50px;
+    padding-top: 140px;
+    width: 100%;
 }
 .page{
     position: relative; 
-    top: 150px;
+    float: left;
+    padding-top: 75px;
+    width: 100%;
 }
 .me{
     position: relative; 
-    top: 150px;
+    margin-top: 195px;
+    border-radius: 200px;
+    width: 100%;
 }
 .center{
     margin: auto;
@@ -84,7 +87,7 @@ p{
     background: linear-gradient(130deg, black 45%, rgba(0, 0, 0, 0) 40%);
     color: #ffff;
     padding-top: 80px;
-    padding-bottom: 380px;
+    padding-bottom: 240px;
 }
 #do{
     background-color:#767779;
@@ -97,12 +100,12 @@ p{
 #work{
     background: linear-gradient(-37deg,black 50%, rgba(0, 0, 0, 0) 50%);
     padding-top: 80px;
-    padding-bottom: 350px;
+    padding-bottom: 610px;
 }
-#story {
+#storysection {
     background-color:#C4C4C4;
     padding-top: 80px;
-    padding-bottom: 330px;
+    padding-bottom: 75px;
 }
 #discuss {
     background-color:#22252A;
@@ -114,3 +117,375 @@ p{
 body {
     margin: 0px;
 }
+
+.face {
+    display: none;
+}
+#what {
+    color:#87AFDB;
+    position: relative;
+    bottom: 30px
+}
+#whatI {
+   font-size: 30px;
+    color: #ffff;
+    position: relative;
+    top: 50px;
+}
+#listen{
+    font-size: 22px;
+    color: #393838;
+    position: relative;
+    top: 100px
+}
+#topic{
+    color:#3884CC;
+    position: relative;
+    bottom: 30px;
+}
+#text1{
+    color: #2B2A29;
+    position: relative;
+    top: 3px;
+}
+#text2{
+ color: #497BAC;
+  position: relative;
+  top: 7px;
+}
+#short{
+    color:#63666A;
+    position: relative;
+    bottom: 33px;
+   }
+#story{
+    color: #2B2A29; 
+    position: relative; 
+    top: 35px;
+   }
+#about{
+    color: #63666A; 
+    position: relative; 
+    top: 100px;
+   }
+ #life{
+    font-size: 40px; 
+    color: #E6F2FF; 
+    position: relative; 
+    padding-top: 130px;
+    font-family: var(--headingfont);
+   }
+
+   .ready {
+    color:#E6F2FF;
+   }
+
+   .contact{
+    color: #ffffff;
+   }
+
+   /* * {box-sizing: border-box;} */
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: left;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 15.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+#beg_text3{
+    position: relative;
+    float: left;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+#beg_text4{
+    position: relative;
+    float: left;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+#beg_text5{
+    position: relative;
+    float: left;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+#beg_text6{
+    position: relative;
+    float: left;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+@media (min-width: 1000px) {
+   #head{
+    background: linear-gradient(-90deg,black 50%, rgba(0, 0, 0, 0) 50%);
+    margin:-3px;
+   }
+    h2{
+        position: relative;
+        right: 285px;
+        top: 250px;
+        color: #3884CC;
+        font-size: 43px;
+    }
+    .girls{
+    position: relative;
+    padding-left: 206px;
+    padding-top: 300px;
+    width:750px;
+    
+    }
+
+    .face{
+       padding-left: 60%;
+       margin-top: -70%;
+       width: 37%;
+       display: block;
+    } 
+    #title{
+    position: relative;
+    right:130px;
+    top:60px;
+    line-height:0.3em;
+    color: #3884CC;
+    font-size:70px;
+    }
+     #title1{
+        position: relative;
+        padding-left:380px;
+        top:50px;
+        line-height:0.3em;
+        font-size: 70px;
+    } 
+ #what{
+    position: relative;
+    font-size: 65px;
+    text-align: left;
+    padding-left: 80px;
+ }
+ #whatI{
+     position: relative;
+     padding-right: 760px;
+     padding-top: 25px;
+     padding-left: 50px;
+     font-size: 60px;
+ }
+ .photo{
+     position: relative;
+     padding-right: 80px;
+     margin-bottom: 40px;
+     width:430px;
+     float: right;
+     margin-top: -41%;
+ }
+ #listen{
+     position: relative;
+     padding-right: 50px !important;
+     font-size: 35px;
+ }
+#work{
+    background: linear-gradient(90deg,black 60%, rgba(0, 0, 0, 0) 50%);
+    padding-top: 40px;
+    padding-bottom: 150px;
+}
+ #topic{
+    position: relative;
+    margin-left: 76%;
+    padding-top: 150px;
+    font-size: 55px;
+} 
+#text1{
+    position: relative;
+    padding-left: 60%;
+    padding-top: 80px;
+    font-size: 35px;
+} 
+#text2{
+    position: relative;
+    padding-left: 60%;
+    padding-top: 80px;
+    font-size: 35px;
+}
+#beg_text3{
+    position: relative;
+    float: left;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+#beg_text4{
+    position: relative;
+    float: left;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+#beg_text5{
+    position: relative;
+    float: left;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+#beg_text6{
+    position: relative;
+    float: left;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+.page{
+    position: relative;
+    margin-left: 4%;
+    width: 900px;
+    margin-top: -39%;
+}
+#short{
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 60px;
+    text-align: left;
+    padding-left: 40px;
+}
+#story{
+    position: relative;
+    padding-left: 2%;
+    padding-right: 27%;
+    font-size: 35px;
+}
+#about{
+    position: relative;
+    padding-left: 28%;
+    padding-right: 0%;
+    font-size: 55px;
+} 
+.me{
+    position: relative;
+    padding-top: 0px;
+    margin-top: -30%;
+    float: right;
+    margin-right: 50px;
+    width:20%;
+}
+#life{
+    font-size: 60px;
+    font-family: var(--headingfont);
+}
+.ready{
+    position: relative;
+    float: left;
+    color:#E6F2FF;
+    font-weight: normal; 
+    font-style: normal
+} 
+h4{
+    position: relative;
+    left: 0%;
+    font-size: 40px;
+} 
+.center{
+    position: relative;
+ 
+} 
+
+.contact{
+    position: relative;
+    left: 0%;
+    color:#FFFFFF;
+    font-size: 30px;
+}
+
+#discuss {
+    display: flex;
+    font-size: 30px;
+}
+#column1 {
+    padding-left: 5%;
+    padding-top: 80px;
+}
+
+#column2 {
+    padding-right: 10%;
+    margin-bottom: -400px;
+}
+
+#column3 {
+    flex: 50%;
+    padding-top: 400px;
+    padding-left: 50px;
+}
+
+#column4 {
+    flex: 50%;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    float:left;
+    margin-top: -350px;
+  }
+    }
+    
